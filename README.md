@@ -3,8 +3,8 @@
 Installation script that pulls risv64 stage3 tarball from gentoo.org and any other required components from SiPeed's mirror. Script then creates an ext4 partition out them before flashing the whole mess to your Lichee Pi 4A SBC.
 
 ## What works
-- [✓] Booting
-- [✓] Wired Networking
+- [x] Booting
+- [x] Wired Networking
 - [ ] Wi-Fi (interface pop ups with correct firmware but fails to connect)
 - [ ] Graphics (Not-Tested)
 
