@@ -2,6 +2,10 @@
 
 Installation script that pulls risv64 stage3 tarball from gentoo.org and any other required components from SiPeed's mirror. Script then creates an ext4 partition out them before flashing the whole mess to your Lichee Pi 4A SBC.
 
+## Caveat
+
+Highly recommended to set up a crossdev env or use binary packages for bigger ebuilds as TH1520 RISC-V SoC isn't exactly a powerhouse of a CPU.
+
 ## What works
 - [x] Booting
 - [x] Wired Networking
